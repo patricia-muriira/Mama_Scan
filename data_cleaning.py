@@ -22,7 +22,7 @@ binary_columns = [
 ]
 
 for col in binary_columns:
-    df[col] = df[col].map({"Yes": 1, "No": 0, "yes": 1, "no": 0}).fillna(0)
+    df[col] = df[col].map({"Y": 1, "N": 0, "POSITIVE": 1, "NEGATIVE": 0}).fillna(0)
 
 # One-hot encode categorical variables
 df = pd.get_dummies(df, columns=["Screening_Type_Last"], prefix="Test", dtype='int')
