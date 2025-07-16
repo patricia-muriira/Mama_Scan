@@ -62,13 +62,12 @@ After applying **noise injection + SMOTE**, each class was brought to **31 sampl
 
 ## 🤖 Model Training & Evaluation
 
-* **Model Type**: RandomForestClassifier (or insert your actual model type)
-* **Overall Accuracy**: `0.85`
+* **Overall Accuracy**: `0.93`
 * **Macro Average**:
 
-  * Precision: `0.86`
-  * Recall: `0.85`
-  * F1-Score: `0.85`
+  * Precision: `0.95`
+  * Recall: `0.93`
+  * F1-Score: `0.93`
   * Support: `75`
 
 **🔄 Output**:
@@ -85,12 +84,12 @@ After applying **noise injection + SMOTE**, each class was brought to **31 sampl
    ![Confusion Matrix - Noise](https://github.com/user-attachments/assets/341976da-cf2b-4a91-91cd-91f36f9948f2)
 
 2. **Using SMOTE**
-   Accuracy: `0.85` — significant performance improvement
+   Accuracy: `0.93` — significant performance improvement
 
-   ![Confusion Matrix - SMOTE](https://github.com/user-attachments/assets/637786d8-08e9-44f0-be0d-4e3be6077910)
+<img width="1168" height="660" alt="image" src="https://github.com/user-attachments/assets/8d5233cf-0a79-41a8-987e-a659b168419c" />
 
 3. **Classification Report with SMOTE**
-   ![Classification Report](https://github.com/user-attachments/assets/7066e567-925f-4ba2-a325-3007c1eec1ce)
+<img width="545" height="334" alt="image" src="https://github.com/user-attachments/assets/fa90ddf4-9fbf-4eb5-b396-22284874e760" />
 
 ---
 
